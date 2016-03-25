@@ -1,0 +1,52 @@
+/*Medidas 
+	@media (min-width: 640px)
+*/
+
+@font-face{
+	font-family: Tera;
+	src:url("../fonts/pixel.otf");
+}
+@font-face{
+	font-family: Cali;
+	src:url("../fonts/ca_(2).ttf");
+}
+.fuente{
+	font-family: Tera;
+	font-size: 106px;
+}
+.ser{
+	font-family: Cali;
+	font-size: 30px;
+}
+.ser2{
+	font-family: Cali;
+	font-size: 20px;
+}
+.fuente2{
+	font-family: Cali;
+	font-size: 23px;
+	color: white;
+}
+.fondo{
+	background-color: black;
+	color: white;
+}
+.imgSize{
+	height: 91px;
+}
+
+@media (min-width: 640px) {
+	.imgSize
+	{
+		height: 133px;
+	}
+	.fuente{
+		font-family: Tera;
+		font-size: 34px;
+	}
+	.fuente2{
+		font-family: Cali;
+		font-size: 23px;
+	}
+
+}
